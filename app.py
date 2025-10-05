@@ -1,4 +1,4 @@
-%%writefile app.py
+
 import streamlit as st
 from Bio import Entrez
 from datetime import datetime, timedelta
@@ -336,4 +336,5 @@ if st.button("🔍 Знайти опонентів"):
                 mime="text/csv"
             )
         else:
+
             st.warning("❌ Не знайдено жодного кандидата без спільних публікацій.")
